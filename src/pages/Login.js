@@ -8,7 +8,7 @@ const Login = () =>
             <div className='container-fluid mx-5'>
                 <div className='row mt-5'>
                     <div className='col'>
-                        <img src={loginImage} height={700} width={850} alt="Login Image" />
+                        <img className='img-fluid' src={loginImage} height={700} width={850} alt="Login Image" />
                     </div>
                     <div className='col-5 ms-5 ps-3 pe-5 mt-8'>
                         <h1 className='fw-bold'>Login</h1>
