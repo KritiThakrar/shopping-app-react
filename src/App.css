@@ -41,6 +41,10 @@
     height: 90vh;
 }
 
+.vh-80{
+    height: 80vh;
+}
+
 .fs-small{
     font-size: 0.9rem;
 }
@@ -161,4 +165,20 @@
 
 .border-right{
     border-right: 1px solid #ccc !important;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #ccc !important;
+}
+
+.overflow-auto::-webkit-scrollbar {
+    display: none;
+}
+
+.text-success:hover{
+    color: #ff9842 !important;
+}
+
+.gx-8 {
+    --bs-gutter-x: 6rem !important;
 }
