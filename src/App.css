@@ -45,6 +45,10 @@
     height: 80vh;
 }
 
+.vh-50{
+    height: 50vh;
+}
+
 .fs-small{
     font-size: 0.9rem;
 }

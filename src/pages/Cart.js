@@ -58,9 +58,45 @@ export default function Cart()
                         </div>
                     </div>
                 </div>
-                <div className='row gx-8 mt-5'>
-                    <div className='col-7'>
+                <div className='row gx-8 mt-5 align-items-center'>
+                    <div className='col-7 overflow-auto vh-50'>
                         <div class="card">
+                            <div className='row pe-0'>
+                                <div className='col-3'>
+                                    <img src="https://cdn.shopify.com/s/files/1/0042/6691/7988/products/fashion-13.jpg?v=1543033020" width={150} height={150} class="card-img-top py-2 ps-2" alt="..." />
+                                </div>
+                                <div className='col mt-3'>
+                                    <div className='fs-small fw-semibold'>Fashion Store Clothing</div>
+                                    <div className='fs-small'>Size: M</div>
+                                    <div class="card-text text-primary-1 fw-semibold"><strike className="text-muted pe-2">₹2000</strike>  ₹1299</div>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span className='text-muted px-2'>No Reviews</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div className='row pe-0'>
+                                <div className='col-3'>
+                                    <img src="https://cdn.shopify.com/s/files/1/0042/6691/7988/products/fashion-13.jpg?v=1543033020" width={150} height={150} class="card-img-top py-2 ps-2" alt="..." />
+                                </div>
+                                <div className='col mt-3'>
+                                    <div className='fs-small fw-semibold'>Fashion Store Clothing</div>
+                                    <div className='fs-small'>Size: M</div>
+                                    <div class="card-text text-primary-1 fw-semibold"><strike className="text-muted pe-2">₹2000</strike>  ₹1299</div>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span className='text-muted px-2'>No Reviews</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
                             <div className='row pe-0'>
                                 <div className='col-3'>
                                     <img src="https://cdn.shopify.com/s/files/1/0042/6691/7988/products/fashion-13.jpg?v=1543033020" width={150} height={150} class="card-img-top py-2 ps-2" alt="..." />
