@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImage from '../images/about.jpg'
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 export default function About()
 {
@@ -71,16 +72,30 @@ export default function About()
                     </div>
                 </div>
             </div>
-            <hr className='ms-4 me-4' />
+            <hr className='ms-5 me-4' />
             <div className='container-fluid mt-5'>
-                <div className='row gx-8 ms-1 me-2'>
-                    <div className='col mt-8'>
-                        <div className='fs-6 fw-bold mb-4'>SAVING OUR ENVIRONMENT</div>
-                        <div className='fs-1 fw-bold text-primary-1'>100 % ECO MATERIALS</div>
+                <div className='row gx-8 ms-1 me-2 mt-5'>
+                    <div className='col'>
+                        <div className='fs-6 fw-bold mb-2'>SAVING OUR ENVIRONMENT</div>
+                        <div className='fs-3 fw-bold text-primary-1'>100 % ECO MATERIALS</div>
+                        <div className='fs-6 text-muted'>
+                            Fashion production makes up 10% of humanity's carbon emissions, dries up water sources,
+                            and pollutes rivers and streams. What's more, 85% of all textiles go to the dump each year
+                            (UNECE, 2018), and washing some types of clothes sends significant amount of microplastics into the ocean.
+                        </div>
                     </div>
-                    <div className='col mt-8'>
-                        
+                    <div className='col mt-3'>
+                        <span className='fs-6 text-muted'>Cotton</span>
+                        <span className='fs-6 text-muted ps-2'>70%</span>
+                        <ProgressBar className='mb-4' variant="success" now={70} />
+                        <span className='fs-6 text-muted'>Material</span>
+                        <span className='fs-6 text-muted ps-2'>80%</span>
+                        <ProgressBar className='mb-4' variant="success" now={80} />
+                        <span className='fs-6 text-muted'>Satin</span>
+                        <span className='fs-6 text-muted ps-2'>40%</span>
+                        <ProgressBar className='mb-4' variant="success" now={40} />
                     </div>
+
                 </div>
             </div>
         </div>
