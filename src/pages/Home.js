@@ -314,34 +314,6 @@ const Home = () =>
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div className='container-fluid'>
-                <div className='row'>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img1.jpg?v=6339463309123514766' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img2.jpg?v=7112495757139841473' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img3.jpg?v=39368396558490134' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img4.jpg?v=13154479712404424444' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img5.jpg?v=12391025609665292208' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img6.jpg?v=10695870388547690407' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img7.jpg?v=10352718537273736136' width={225} alt='Coutes' />
-                    </div>
-                    <div className='col px-0'>
-                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img8.jpg?v=2072247497219566948' width={217} height={225} alt='Coutes' />
-                    </div>
-                </div>
-            </div>
         </div>
     )
 }

@@ -4,87 +4,93 @@ export default function Footer()
 {
     return (
         <div>
-            <footer class="footer-03">
-                <div class="container">
+            <div className='container-fluid mt-8'>
+                <div className='row'>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img1.jpg?v=6339463309123514766' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img2.jpg?v=7112495757139841473' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img3.jpg?v=39368396558490134' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img4.jpg?v=13154479712404424444' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img5.jpg?v=12391025609665292208' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img6.jpg?v=10695870388547690407' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img7.jpg?v=10352718537273736136' width={225} alt='Coutes' />
+                    </div>
+                    <div className='col px-0'>
+                        <img src='https://cdn.shopify.com/s/files/1/0042/6691/7988/files/engo_ins_img8.jpg?v=2072247497219566948' width={217} height={225} alt='Coutes' />
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <footer class="py-5">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-4 mb-md-0 mb-4">
-                                    <h2 class="footer-heading">Men</h2>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#" class="py-1 d-block">Jeans</a></li>
-                                        <li><a href="#" class="py-1 d-block">Jumpers</a></li>
-                                        <li><a href="#" class="py-1 d-block">Leather</a></li>
-                                        <li><a href="#" class="py-1 d-block">Shorts</a></li>
-                                        <li><a href="#" class="py-1 d-block">Boots</a></li>
-                                        <li><a href="#" class="py-1 d-block">Watches</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 mb-md-0 mb-4">
-                                    <h2 class="footer-heading">Women</h2>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#" class="py-1 d-block">Dresses</a></li>
-                                        <li><a href="#" class="py-1 d-block">Jumpsuits</a></li>
-                                        <li><a href="#" class="py-1 d-block">Shirts</a></li>
-                                        <li><a href="#" class="py-1 d-block">T-shirts</a></li>
-                                        <li><a href="#" class="py-1 d-block">Swearshirts</a></li>
-                                        <li><a href="#" class="py-1 d-block">Jackets</a></li>
-                                        <li><a href="#" class="py-1 d-block">Coats</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 mb-md-0 mb-4">
-                                    <h2 class="footer-heading">Kids</h2>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#" class="py-1 d-block">Shirts</a></li>
-                                        <li><a href="#" class="py-1 d-block">T-shirts</a></li>
-                                        <li><a href="#" class="py-1 d-block">Polos</a></li>
-                                        <li><a href="#" class="py-1 d-block">Sweaters</a></li>
-                                        <li><a href="#" class="py-1 d-block">Sweatshirts</a></li>
-                                        <li><a href="#" class="py-1 d-block">Jackets</a></li>
-                                        <li><a href="#" class="py-1 d-block">Watches</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="col-6 col-md-2 mb-3">
+                            <div className='fw-bold'>CUSTOMER SERVICE</div>
+                            <ul class="nav flex-column mt-3">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Customer Service</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shipping</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Returns</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Buy gift cards</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Size charts</a></li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="row justify-content-end">
-                                <div class="col-md-12 col-lg-11 mb-md-0 mb-4">
-                                    <h2 class="footer-heading">Follow Us</h2>
-                                    <ul class="ftco-footer-social p-0">
-                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Twitter"><span class="ion-logo-twitter"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Facebook"><span class="ion-logo-facebook"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Instagram"><span class="ion-logo-instagram"></span></a></li>
-                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                            title="Linkedin"><span class="ion-logo-linkedin"></span></a></li>
-                                    </ul>
-                                    <h2 class="footer-heading mt-5">Subscribe Us</h2>
-                                    <form action="#" class="subscribe-form">
-                                        <div class="form-group d-flex">
-                                            <input type="text" class="form-control rounded-left"
-                                                placeholder="Enter email address"/>
-                                                <input type="submit" value="Subscribe"
-                                                    class="form-control submit px-3 rounded-right"/>
-                                                </div>
-                                            </form>
-                                        </div>
-                                </div>
-                            </div>
+
+                        <div class="col-6 col-md-2 mb-3">
+                            <div className='fw-bold'>INFORMATION</div>
+                            <ul class="nav flex-column mt-3">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Jobs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                            </ul>
                         </div>
-                        <div class="row mt-5 pt-4 border-top">
-                            <div class="col-md-6 col-lg-8">
-                            </div>
-                            <div class="col-md-6 col-lg-4 text-md-right">
-                                <p class="mb-0 list-unstyled text-center">
-                                    <a class="mr-md-3" href="#">Terms &amp; Conditions</a>
-                                    <a class="mr-md-3" href="#">Privacy</a>
-                                </p>
-                            </div>
+
+                        <div class="col-6 col-md-2 mb-3">
+                            <div className='fw-bold'>GET IN TOUCH</div>
+                            <ul class="nav flex-column mt-3">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">shopilaunch@gmail.com</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">support@shopilaunch.com</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+(938) 1678 311 160</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support available 10am–6pm ET Monday through Friday</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-5 offset-md-1 mb-3">
+                            <form className='me-4'>
+                                <h5>Subscribe to our newsletter</h5>
+                                <p>Monthly digest of what's new and exciting from us.</p>
+                                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+                                    <button class="btn btn-primary-1" type="button">Subscribe</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-            </footer>
+
+                    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                        <p>© 2022 Company, Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-twitter fs-4"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-youtube fs-4"></i></a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
         </div>
     )
 }

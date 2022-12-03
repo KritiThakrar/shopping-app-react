@@ -159,7 +159,6 @@ export default function Cart()
                             </div>
                         </div>
                     </div>
-                    <div class="w-100 d-none d-md-block"></div>
                 </div>
             </div>
         </div >
