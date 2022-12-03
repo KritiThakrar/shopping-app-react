@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Footer from './components/Footer';
+import Cart from './pages/Cart';
 
 function App()
 {
@@ -22,8 +23,9 @@ function App()
                 <Route exact path="contact" element={<Contact />} />
                 <Route exact path="login" element={<Login />} />
                 <Route exact path="register" element={<Register />} />
+                <Route exact path="cart" element={<Cart />} />
             </Routes>
-            <Footer/>
+            {/* <Footer/> */}
         </BrowserRouter>
     );
 }

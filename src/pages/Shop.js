@@ -61,7 +61,7 @@ export default function Shop()
                     <div className='col-2'>
                         <span className='fs-5 fw-bold mb-4'>FILTERS</span>
                         {/* clear all filters and set default */}
-                        <span className='fs-7 fw-bold text-danger ms-5 ps-5' style={{ cursor: 'pointer'}}>Clear All</span>
+                        <span className='fs-7 fw-bold text-danger ms-5 ps-5' style={{ cursor: 'pointer' }}>Clear All</span>
                         <div className='border-right'>
                             <hr />
                             <div>
@@ -238,6 +238,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -252,6 +255,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -268,6 +274,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -282,6 +291,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -298,6 +310,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -312,6 +327,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -329,6 +347,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -343,6 +364,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -359,6 +383,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -373,6 +400,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -389,6 +419,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -403,6 +436,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -420,6 +456,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -434,6 +473,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -450,6 +492,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -464,6 +509,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -480,6 +528,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -494,6 +545,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -511,6 +565,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -525,6 +582,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -541,6 +601,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -555,6 +618,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -571,6 +637,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -585,6 +654,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -602,6 +674,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -616,6 +691,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -632,6 +710,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -646,6 +727,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -662,6 +746,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -676,6 +763,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -693,6 +783,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -707,6 +800,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -723,6 +819,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -737,6 +836,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
@@ -753,6 +855,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
                                     </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col'>
@@ -767,6 +872,9 @@ export default function Shop()
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                         <span className='text-muted px-2'>No Reviews</span>
+                                    </div>
+                                    <div className='d-grid'>
+                                        <button type="submit" className="btn btn-primary-1 btn-lg">ADD TO CART</button>
                                     </div>
                                 </div>
                             </div>
